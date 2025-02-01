@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore dataset (if using a local dataset)
+data/aclImdb/
+
+# Ignore model files (optional, if you want to regenerate them)
+models/sentiment_model.pkl
+models/vectorizer.pkl
+
+# Ignore NLTK data (it can be downloaded again)
+nltk_data/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
